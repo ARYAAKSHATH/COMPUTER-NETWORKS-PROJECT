@@ -13,7 +13,8 @@ Clone the repository to your local machine:
 
 ```bash
 git clone: "https://github.com/ARYAAKSHATH/COMPUTER-NETWORKS-PROJECT.git"
-cd <repository_directory>
+cd COMPUTER-NETWORKS-PROJECT
+
 ````
 
 ### 2. Create and Activate Virtual Environment
