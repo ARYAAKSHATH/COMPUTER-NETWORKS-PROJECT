@@ -1,0 +1,86 @@
+2025-07-01 04:32:12,154 - INFO - Database initialized successfully
+2025-07-01 04:32:12,161 - INFO - Server started on localhost:9999
+2025-07-01 04:34:46,477 - INFO - Database initialized successfully
+2025-07-01 04:34:46,482 - INFO - Server started on localhost:9999
+2025-07-01 04:34:53,133 - INFO - New connection from ('127.0.0.1', 53609)
+2025-07-01 04:35:10,869 - INFO - User aryaakshat registered successfully
+2025-07-01 04:35:14,794 - INFO - User aryaakshat authenticated successfully
+2025-07-01 04:35:44,118 - ERROR - Client handler error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-01 04:35:44,119 - INFO - Connection closed for ('127.0.0.1', 53609)
+2025-07-01 04:36:07,649 - INFO - New connection from ('127.0.0.1', 55287)
+2025-07-01 04:37:03,782 - ERROR - Client handler error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-01 04:37:03,783 - INFO - Connection closed for ('127.0.0.1', 55287)
+2025-07-01 04:37:16,123 - INFO - New connection from ('127.0.0.1', 56831)
+2025-07-01 04:37:24,972 - INFO - User aryanmishra registered successfully
+2025-07-01 04:37:28,209 - INFO - User aryanmishra authenticated successfully
+2025-07-01 04:38:06,640 - ERROR - Client handler error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-01 04:38:06,641 - INFO - Connection closed for ('127.0.0.1', 56831)
+2025-07-01 04:40:13,081 - INFO - Server stopped
+2025-07-01 04:40:13,081 - INFO - Server stopped
+2025-07-01 04:40:25,809 - INFO - Database initialized successfully
+2025-07-01 04:40:25,815 - INFO - Server started on localhost:9999
+2025-07-01 04:40:29,119 - INFO - New connection from ('127.0.0.1', 61221)
+2025-07-01 04:40:29,121 - INFO - New connection from ('127.0.0.1', 61222)
+2025-07-01 04:40:30,138 - INFO - User alice registered successfully
+2025-07-01 04:40:30,649 - INFO - User alice authenticated successfully
+2025-07-01 04:40:31,165 - INFO - User bob registered successfully
+2025-07-01 04:40:31,675 - INFO - User bob authenticated successfully
+2025-07-01 04:40:38,220 - ERROR - Client handler error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-01 04:40:38,222 - ERROR - Client handler error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-01 04:40:38,222 - INFO - Connection closed for ('127.0.0.1', 61221)
+2025-07-01 04:40:38,223 - INFO - Connection closed for ('127.0.0.1', 61222)
+2025-07-01 04:41:30,116 - INFO - New connection from ('127.0.0.1', 62602)
+2025-07-01 04:41:50,346 - WARNING - Authentication failed for user aryan
+2025-07-01 04:42:18,152 - ERROR - Client handler error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-01 04:42:18,153 - INFO - Connection closed for ('127.0.0.1', 62602)
+2025-07-01 04:42:35,544 - INFO - New connection from ('127.0.0.1', 64097)
+2025-07-01 04:42:45,004 - INFO - User aryan registered successfully
+2025-07-01 04:42:50,928 - INFO - User aryan authenticated successfully
+2025-07-01 04:43:53,826 - ERROR - Client handler error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-01 04:43:53,826 - INFO - Connection closed for ('127.0.0.1', 64097)
+2025-07-02 05:00:01,990 - INFO - Database initialized successfully
+2025-07-02 05:00:01,990 - INFO - Server started on localhost:9999
+2025-07-02 05:00:31,037 - INFO - New connection from ('127.0.0.1', 50452)
+2025-07-02 05:00:43,402 - INFO - User akku registered successfully
+2025-07-02 05:00:47,444 - INFO - User akku authenticated successfully
+2025-07-02 05:06:57,738 - ERROR - Client handler error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-02 05:06:57,738 - INFO - Connection closed for ('127.0.0.1', 50452)
+2025-07-02 05:07:05,409 - INFO - New connection from ('127.0.0.1', 50529)
+2025-07-02 05:07:05,409 - INFO - New connection from ('127.0.0.1', 50530)
+2025-07-02 05:07:06,413 - WARNING - Registration failed: Username alice already exists
+2025-07-02 05:07:06,921 - INFO - User alice authenticated successfully
+2025-07-02 05:07:07,432 - WARNING - Registration failed: Username bob already exists
+2025-07-02 05:07:07,942 - INFO - User bob authenticated successfully
+2025-07-02 05:07:14,477 - ERROR - Client handler error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-02 05:07:14,477 - ERROR - Client handler error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-02 05:07:14,477 - INFO - Connection closed for ('127.0.0.1', 50529)
+2025-07-02 05:07:14,477 - INFO - Connection closed for ('127.0.0.1', 50530)
+2025-07-02 05:08:59,801 - INFO - New connection from ('127.0.0.1', 50540)
+2025-07-02 05:09:16,204 - INFO - User eva registered successfully
+2025-07-02 05:09:19,181 - INFO - User eva authenticated successfully
+2025-07-02 05:21:54,303 - ERROR - Client handler error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-02 05:21:54,303 - INFO - Connection closed for ('127.0.0.1', 50540)
+2025-07-02 05:34:03,033 - INFO - Database initialized successfully
+2025-07-02 05:34:03,033 - INFO - Server started on localhost:9999
+2025-07-02 05:34:33,043 - INFO - New connection from ('127.0.0.1', 51032)
+2025-07-02 05:34:47,754 - INFO - User arya registered successfully
+2025-07-02 05:34:50,094 - INFO - User arya authenticated successfully
+2025-07-02 05:34:54,203 - INFO - New connection from ('127.0.0.1', 51040)
+2025-07-02 05:35:03,701 - INFO - User mishra registered successfully
+2025-07-02 05:35:06,438 - INFO - User mishra authenticated successfully
+2025-07-02 05:36:58,294 - INFO - New connection from ('127.0.0.1', 51054)
+2025-07-02 05:37:07,092 - INFO - User dhairya registered successfully
+2025-07-02 05:37:10,409 - INFO - User dhairya authenticated successfully
+2025-07-02 05:39:59,385 - ERROR - Client handler error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-02 05:39:59,385 - INFO - Connection closed for ('127.0.0.1', 51054)
+2025-07-02 05:40:02,073 - ERROR - Client handler error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-02 05:40:02,073 - INFO - Connection closed for ('127.0.0.1', 51040)
+2025-07-02 05:40:04,603 - ERROR - Client handler error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-02 05:40:04,603 - INFO - Connection closed for ('127.0.0.1', 51032)
+2025-07-02 16:56:35,673 - INFO - Database initialized successfully
+2025-07-02 16:56:35,684 - INFO - Server started on localhost:9999
+2025-07-02 16:57:31,718 - INFO - New connection from ('127.0.0.1', 60515)
+2025-07-02 16:57:42,048 - INFO - User aru registered successfully
+2025-07-02 16:57:45,336 - INFO - User aru authenticated successfully
+2025-07-02 16:58:24,631 - ERROR - Client handler error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-02 16:58:24,631 - INFO - Connection closed for ('127.0.0.1', 60515)

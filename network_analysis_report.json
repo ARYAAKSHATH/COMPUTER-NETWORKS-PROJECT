@@ -1,0 +1,190 @@
+{
+  "analysis_metadata": {
+    "pcap_file": ".\\client_conversation_wireshark.pcapng",
+    "analysis_time": "2025-07-03T03:40:31.408180",
+    "analyzer_version": "1.0"
+  },
+  "analysis_results": {
+    "basic_stats": {
+      "total_packets": 462,
+      "total_size_bytes": 47419,
+      "duration_seconds": 334.17103362083435,
+      "packets_per_second": 1.3825255737880806,
+      "start_time": "2025-07-02T23:44:32.099655",
+      "end_time": "2025-07-02T23:50:06.270688"
+    },
+    "protocols": {
+      "TCP": 462
+    },
+    "top_talkers": [
+      {
+        "ip": "127.0.0.1",
+        "packet_count": 924
+      }
+    ],
+    "port_activity": [
+      {
+        "port": 9999,
+        "service": "Unknown",
+        "packet_count": 462
+      },
+      {
+        "port": 33540,
+        "service": "Unknown",
+        "packet_count": 238
+      },
+      {
+        "port": 37718,
+        "service": "Unknown",
+        "packet_count": 224
+      }
+    ],
+    "dns_analysis": {
+      "total_queries": 0,
+      "unique_domains": 0,
+      "top_queried_domains": [],
+      "recent_queries": []
+    },
+    "http_analysis": {
+      "total_requests": 0,
+      "recent_requests": []
+    },
+    "network_topology": {
+      "internal_ips": [],
+      "external_ips": [
+        "127.0.0.1"
+      ],
+      "total_internal": 0,
+      "total_external": 1,
+      "traffic_patterns": {
+        "internal_to_external": 0,
+        "external_to_internal": 0,
+        "internal_to_internal": 0
+      }
+    },
+    "security_threats": [],
+    "firewall_rules": [
+      {
+        "id": 1,
+        "action": "LIMIT",
+        "direction": "INPUT",
+        "source": "127.0.0.1",
+        "destination": "ANY",
+        "protocol": "ANY",
+        "port": "ANY",
+        "limit": "100/minute",
+        "description": "Rate limit IP 127.0.0.1 due to high traffic volume (924 packets)"
+      },
+      {
+        "id": 2,
+        "action": "DROP",
+        "direction": "INPUT",
+        "source": "ANY",
+        "destination": "ANY",
+        "protocol": "TCP",
+        "port": 9999,
+        "description": "Block potentially malicious traffic on port 9999"
+      },
+      {
+        "id": 3,
+        "action": "DROP",
+        "direction": "INPUT",
+        "source": "ANY",
+        "destination": "ANY",
+        "protocol": "TCP",
+        "port": 33540,
+        "description": "Block potentially malicious traffic on port 33540"
+      },
+      {
+        "id": 4,
+        "action": "DROP",
+        "direction": "INPUT",
+        "source": "ANY",
+        "destination": "ANY",
+        "protocol": "TCP",
+        "port": 37718,
+        "description": "Block potentially malicious traffic on port 37718"
+      },
+      {
+        "id": 5,
+        "action": "ACCEPT",
+        "direction": "INPUT",
+        "source": "ANY",
+        "destination": "ANY",
+        "protocol": "TCP",
+        "port": 80,
+        "description": "Allow HTTP web traffic"
+      },
+      {
+        "id": 6,
+        "action": "ACCEPT",
+        "direction": "INPUT",
+        "source": "ANY",
+        "destination": "ANY",
+        "protocol": "TCP",
+        "port": 443,
+        "description": "Allow HTTPS secure web traffic"
+      },
+      {
+        "id": 7,
+        "action": "ACCEPT",
+        "direction": "INPUT",
+        "source": "ANY",
+        "destination": "ANY",
+        "protocol": "UDP",
+        "port": 53,
+        "description": "Allow DNS queries"
+      },
+      {
+        "id": 8,
+        "action": "ACCEPT",
+        "direction": "INPUT",
+        "source": "ANY",
+        "destination": "ANY",
+        "protocol": "TCP",
+        "port": 22,
+        "description": "Allow SSH administration"
+      },
+      {
+        "id": 9,
+        "action": "ACCEPT",
+        "direction": "INPUT",
+        "source": "ANY",
+        "destination": "ANY",
+        "protocol": "TCP",
+        "port": 25,
+        "description": "Allow SMTP email"
+      },
+      {
+        "id": 10,
+        "action": "ACCEPT",
+        "direction": "INPUT",
+        "source": "ANY",
+        "destination": "ANY",
+        "protocol": "TCP",
+        "port": 993,
+        "description": "Allow IMAPS secure email"
+      },
+      {
+        "id": 11,
+        "action": "ACCEPT",
+        "direction": "INPUT",
+        "source": "ANY",
+        "destination": "ANY",
+        "protocol": "TCP",
+        "port": 995,
+        "description": "Allow POP3S secure email"
+      },
+      {
+        "id": 12,
+        "action": "DROP",
+        "direction": "INPUT",
+        "source": "ANY",
+        "destination": "ANY",
+        "protocol": "ANY",
+        "port": "ANY",
+        "description": "Default deny all other traffic"
+      }
+    ]
+  }
+}
