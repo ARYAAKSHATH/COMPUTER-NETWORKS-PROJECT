@@ -12,7 +12,7 @@ A **Tkinter-based client-server chat application** enhanced with a **network tra
 Clone the repository to your local machine:
 
 ```bash
-git clone <repository_url>
+git clone: "https://github.com/ARYAAKSHATH/COMPUTER-NETWORKS-PROJECT.git"
 cd <repository_directory>
 ````
 
