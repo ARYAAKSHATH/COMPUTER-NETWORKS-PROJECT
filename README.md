@@ -44,7 +44,7 @@ python -m venv venv
 Install the necessary Python libraries:
 
 ```bash
-pip install scapy matplotlib seaborn pandas plotly
+pip install -r requirements.txt
 ```
 
 ---
