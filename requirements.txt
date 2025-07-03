@@ -1,17 +1,20 @@
-# Core dependencies
-tkinter>=8.6  # Usually comes with Python
-sqlite3      # Usually comes with Python
-socket       # Built-in module
-threading    # Built-in module
-json         # Built-in module
-base64       # Built-in module
-hashlib      # Built-in module
-logging      # Built-in module
-datetime     # Built-in module
-os           # Built-in module
-
-# Optional dependencies for enhanced functionality
-# Uncomment if needed:
-# cryptography>=3.4.8  # For enhanced encryption
-# pillow>=8.3.2        # For advanced image processing
-# requests>=2.26.0     # For HTTP-based features
+contourpy           
+cycler              
+fonttools           
+importlib_resources 
+kiwisolver          
+matplotlib          
+numpy               
+packaging
+pandas              
+pillow              
+pip
+pyparsing           
+python-dateutil     
+pytz
+scapy               
+seaborn             
+setuptools          
+six                 
+tzdata
+zipp                
